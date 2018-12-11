@@ -6,7 +6,7 @@ public class Main {
         Digits digits1 = new Digits(7);
         System.out.println(digits1.isStrictlyIncreasing());
 
-        Digits digits2 = new Digits(7);
+        Digits digits2 = new Digits(65310);
         System.out.println(digits2.isStrictlyIncreasing());
 
         System.out.println(new Digits(1356).isStrictlyIncreasing());

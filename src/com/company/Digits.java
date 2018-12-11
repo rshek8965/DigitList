@@ -32,4 +32,20 @@ public class Digits {
         }
         return true;
     }
+
+    public String getDigitList()
+    {
+        String line = "[";
+        for (int i = 0; i < digitList.size(); i++)
+        {
+            if (i == digitList.size()-1)
+            {
+                line += digitList.get(i).intValue();
+                break;
+            }
+            line += digitList.get(i).intValue() + ", ";
+        }
+        line += "]";
+        return line;
+    }
 }
